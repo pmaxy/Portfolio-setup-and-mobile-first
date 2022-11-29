@@ -6,7 +6,7 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>HELLO MICROVERSE</b></h3>
+  <h3><b>Portiflio Setup and mobile first</b></h3>
 
 </div>
 
@@ -48,8 +48,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **heading**
-- **blue_fonts**
+- **navigation toolbar**
+- **interactive header**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

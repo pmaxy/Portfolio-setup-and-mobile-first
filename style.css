@@ -141,6 +141,10 @@ header h3 {
   flex-grow: 0;
 }
 
+header h3 a:hover {
+  color: red;
+}
+
 .container h3 a {
   font-style: normal;
   font-weight: 500;

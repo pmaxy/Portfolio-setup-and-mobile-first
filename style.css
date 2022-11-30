@@ -141,10 +141,6 @@ header h3 {
   flex-grow: 0;
 }
 
-header h3 a:hover {
-  color: red;
-}
-
 .container h3 a {
   font-style: normal;
   font-weight: 500;
@@ -154,6 +150,10 @@ header h3 a:hover {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.container h3 a:hover {
+  color: red;
 }
 
 header > img {

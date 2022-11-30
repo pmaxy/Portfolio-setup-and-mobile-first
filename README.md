@@ -44,7 +44,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> css and html.
+> css and html
 
 ### Key Features <a name="key-features"></a>
 

@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 5410px;
+  align-items: center;
+  width: 375px;
+  margin: auto;
+  background: #f7f7f9;
+  position: relative;
+}
+
+nav {
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 92px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 375px;
+  position: sticky;
+  padding: 0 24px;
+  z-index: 2;
+}
+
+section {
+  display: flex;
+  margin: auto;
+  width: 375px;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 236px 24px 144px 24px;
+  gap: 12px;
+  border-bottom-left-radius: 40px;
+  top: 0;
+  left: calc(50% - (187.5px));
+  overflow: hidden;
+  background: #fff;
+  background-image: url(../Portfolio-setup-and-mobile-first/imgoverlay/header-shapes\ mobile@2x.svg);
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 100%;
+}
+
+nav .logo {
+  display: flex;
+  width: 100px;
+  height: 80px;
+  left: 12px;
+  top: 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav .logo a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.container {
+  z-index: 1;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+section h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 300px;
+  height: 150px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+section p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  width: 327px;
+  height: 150px;
+}
+
+section h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 117px;
+  height: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.container h3 a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.container h3 a:hover {
+  color: red;
+}

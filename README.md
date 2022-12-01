@@ -38,18 +38,18 @@
 
 > Introduction to the first project.
 
-**Hello Microverse** is a introductory project to test skills for basic concepts of programming
+**Portiflio Setup and mobile first** is a introductory project to test skills for basic concepts of programming
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> css and html.
+> css and html
 
 ### Key Features <a name="key-features"></a>
 
 - **navigation toolbar**
-- **interactive header**
+- **interactive view**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -104,10 +104,9 @@ reuest for the code review
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **navigation bar**
-- [ ] **animations**
+- [ ] **hover**
 - [ ] **humbugermenu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

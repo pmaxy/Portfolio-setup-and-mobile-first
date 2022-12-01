@@ -1,0 +1,70 @@
+.menu_main .toggler {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  z-index: 4;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.menu_main .humbuger {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .humbuger line */
+
+.menu_main .humbuger > div {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+/* Top and bottom line */
+.menu_main .humbuger > div::after,
+.menu_main .humbuger > div::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  z-index: 3;
+  width: 100%;
+  height: 1px;
+  background: inherit;
+}
+
+/* moves lin down */
+.menu_main .humbuger > div::after {
+  top: 10px;
+  width: 100%;
+}
+
+.menu_main .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
